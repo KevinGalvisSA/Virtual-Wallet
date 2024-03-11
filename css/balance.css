@@ -156,6 +156,13 @@ body{
     color: var(--color-cuarto);
 }
 
+@media only screen and (max-width: 800px){
+    .main__cuadros button:active{
+        background: var(--color-secundario);
+    }
+}
+
+
 .main__midBottom{
     /*background: rebeccapurple;*/
     margin-top: 10px;
@@ -255,8 +262,8 @@ body{
 }
 
 .footer ul li {
-    list-style: none;
     margin: .5em 0;
+    list-style: none;
 }
 
 .footer ul li a img{
