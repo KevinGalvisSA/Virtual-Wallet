@@ -71,17 +71,18 @@ body{
 }
 
 .titulo__card {
-    /* background: green; */
+    /*background: green;*/
     display: flex;
     flex-direction: column;
-    height: 120px;
+    height: 115px;
     justify-content: center;
-    padding: 0 0.5em
+    padding: 0em 0.5em;
+    line-height: 3em;
 }
 
 .titulo__card h2,
 .titulo__card p {
-    font-size: 2.3em;
+    font-size: 2.2em;
     color: var(--color-ternario);
     text-transform: capitalize;
 }
@@ -96,10 +97,10 @@ body{
 }
 
 .titulo__balance {
-    /* background: fuchsia; */
+    /*background: fuchsia;*/
     color: var(--color-ternario);
     display: flex;
-    height: 130px;
+    height: 105px;
     justify-content: space-between;
     align-items: center;
     padding: 0 0.5em;

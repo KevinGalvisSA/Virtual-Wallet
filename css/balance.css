@@ -17,14 +17,14 @@ body{
     width: 100%;
     height: 30vh;
     position: absolute;
-    border-bottom-left-radius: 50%; /* Radio de borde inferior izquierdo */
+    border-bottom-left-radius: 50%; 
     border-bottom-right-radius: 50%;
 }
 .banner img{
     width: 100%;
     height: 30vh;
     object-fit: cover;
-    border-bottom-left-radius: 50%; /* Radio de borde inferior izquierdo */
+    border-bottom-left-radius: 50%; 
     border-bottom-right-radius: 50%;
 }
 
@@ -92,8 +92,8 @@ body{
 
 .main__textocirculo{
     background: var(--color-secundario);
-    width: 180px; /* ajusta el tamaño del círculo según tus necesidades */
-    height: 180px; /* ajusta el tamaño del círculo según tus necesidades */
+    width: 180px; 
+    height: 180px; 
     border-radius: 50%;  /* para que sea un círculo */
     display: flex;
     flex-direction: column;
@@ -137,6 +137,7 @@ body{
     border-radius: 50px;
     text-transform: capitalize;
     border: 1px solid;
+    font-family: "SF-Pro-Text-Regular";
 }
 
 .main__cuadros .cuadro1{
@@ -157,13 +158,14 @@ body{
 
 .main__midBottom{
     /*background: rebeccapurple;*/
-    margin-top: 20px;
+    margin-top: 10px;
     width: 100%;
     height: 20%;
 }
 
 .main__image{
     /*background: red;*/
+    margin-top: -10px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -186,7 +188,7 @@ body{
 }
 
 .main_bottom{
-    /*background: yellow;*/
+    background: var(--color-quinto);
     margin-top: 70px;
     width: 100%;
     height: 22%;
