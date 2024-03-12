@@ -37,10 +37,16 @@ body{
     color: var(--color-ternario);
 }
 
-.main .main__header{
+.main__header{
     background: blue;
-    z-index: 5;
 }
+
+
+
+
+
+
+
 
 
 
