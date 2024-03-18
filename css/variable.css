@@ -5,6 +5,7 @@
     --color-ternario: #FFFFFF;
     --color-cuarto: #B5C5C3;
     --color-quinto: rgb(221, 255, 227);
+    --color-sexto: rgba(211, 211, 211, 0.842);
 }
 @font-face {
     font-family: "SF-Pro-Text-Bold";

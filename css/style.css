@@ -11,7 +11,6 @@ body{
     background-image: url(../storage/img/FamiliaFeliz.jpg);
     background-size: 100% 100vh;
     background-repeat: no-repeat;
-    background-color: rgba(0, 0, 0, 0.5);
     width: 100%;
     height: 100vh;
 }
@@ -38,18 +37,126 @@ body{
 }
 
 .main__header{
-    background: blue;
+    /*background: blue;*/
+    width: 100%;
+    height: 7vh;
 }
 
+.main_header__text{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
+.main_header__text .h1{
+    color: var(--color-ternario);
+    text-transform: uppercase;
+    font-size: 5vh;
+}
 
+.main_mid__cedula{
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
+#cedula{
+    color: var(--color-ternario);
+}
 
+.main_mid__documento{
+    width: 100%;
+    height: 5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
+#documento::placeholder{
+    color: var(--color-ternario);
+    padding: 0px 10px;
+}
 
+.main_mid__checkbox{
+    color: var(--color-ternario);
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1vh;
+}
 
+.main_mid__clave{
+    width: 100%;
+    height: 15vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1vh;
+}
 
+.main_mid__clave .a{
+    touch-action: none;
+    color: var(--color-cuarto);
+}
 
+.main_bottom{
+    /*background: yellow;*/
+    width: 100%;
+    height: 40vh;
+}
+
+.main_bottom__top{
+    /*background: red;*/
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main_bottom__top button{
+    background: var(--color-sexto);
+    color: var(--color-ternario);
+    border: 1px solid var(--color-sexto);
+    border-radius: 20px;
+    width: 35%;
+    height: 60%;
+    text-transform: capitalize;
+}
+
+.main_bottom__bottom{
+    /*background: lawngreen;*/
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 6vh;
+}
+
+.main_bottom__bottom button{
+    background: var(--nuevo-primario);
+    color: var(--color-ternario);
+    border: 1px solid var(--color-sexto);
+    width: 25%;
+    height: 40%;
+    text-transform: capitalize;
+}
+
+.main_bottom__image{
+    /*background: lightblue;*/
+    width: 100%;
+    height: 15vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 .footer {
     width: 100%;

@@ -13,40 +13,40 @@
     </header>
     <main class="main">
         <section class="main__header">
-            <article>
-                <h1>INVENTO</h1>
+            <article class="main_header__text">
+                <h1 class="h1">daviplata</h1>
             </article>
         </section>
         <section class="main__mid">
-            <article>
-                <input type="email" name="correo electronico" id="email" placeholder="Email">
+            <article class="main_mid__cedula">
+                <select name="cedula" id="cedula">
+                    <option value="cedula">cedula de ciudadania</option>
+                </select>
+            </article>
+            <article class="main_mid__documento">
+                <input type="number" name="numero de documento" id="documento" placeholder="Numero de documento">
             </article>
             <article>
-                <input type="text" name="numero de documento" id="documento" placeholder="Numero de documento">
-            </article>
-            <article>
-                <ul>
-                    <li>
-                        recordar datos
-                    </li>
-                    <li>
-                        ingresar con huella
-                    </li>
+                <ul class="main_mid__checkbox">
+                    <input name="recordar" type="checkbox">recordar datos
+                    <input name="ingresar" type="checkbox">ingresar con huella
                 </ul>
             </article>
-            <article>
-                <a href="#">¿Olvido su clave?</a>
+            <article class="main_mid__clave">
+                <a href="#" class="a">¿Olvido su clave?</a>
             </article>
         </section>
-        <section>
-            <article>
+        <section class="main_bottom">
+            <article class="main_bottom__top">
                 <button>continuar</button>
             </article>
-            <article>
-                <button>Comprar</button>
-                <button>Vender</button>
+            <article class="main_bottom__bottom">
+                <button>comprar</button>
+                <button>vender</button>
             </article>
-            <article></article>
+            <article class="main_bottom__image">
+                <img src="/storage/img/clic aqui.png">
+            </article>
         </section>
     </main>
     <footer class="footer">
